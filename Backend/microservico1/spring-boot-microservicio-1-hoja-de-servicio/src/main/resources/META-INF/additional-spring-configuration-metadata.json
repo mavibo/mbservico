@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "service.security.secure-key-username",
+    "type": "java.lang.String",
+    "description": "A description for 'service.security.secure-key-username'"
+  },
+  {
+    "name": "service.security.secure-key-password",
+    "type": "java.lang.String",
+    "description": "A description for 'service.security.secure-key-password'"
+  }
+]}
