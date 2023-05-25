@@ -12,7 +12,7 @@ public interface EventoService {
 
     public List<Evento>getAllEventos();
     
-    public Evento gEventoById(Long id);
+    public Evento getEventoById(Long id);
 
     public void deletEvento(Long id);
 

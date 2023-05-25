@@ -33,7 +33,7 @@ public class EventoServiceImpl implements EventoService{
     }
 
     @Override
-    public Evento gEventoById(Long id) {
+    public Evento getEventoById(Long id) {
         return eventoRepository.findById(id).get();
     }
 
