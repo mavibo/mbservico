@@ -1,27 +1,28 @@
-package com.securityv2.Springsecurityv2;
-
-//import java.util.Set;
-
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.boot.CommandLineRunner;
+package com.example;
+/* 
+import com.example.models.ERole;
+import com.example.models.RoleEntity;
+import com.example.models.UserEntity;
+import com.example.repositories.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import java.util.Set;
+*/
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//import org.springframework.context.annotation.Bean;
-//import org.springframework.security.crypto.password.PasswordEncoder;
 
-//import com.securityv2.Springsecurityv2.model.ERole;
-//import com.securityv2.Springsecurityv2.model.RoleEntity;
-//import com.securityv2.Springsecurityv2.model.UserEntity;
-//import com.securityv2.Springsecurityv2.repository.UserRepository;
+
+
 
 @SpringBootApplication
-public class Springsecurityv2Application {
+public class SpringSecurityJwtApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Springsecurityv2Application.class, args);
+		SpringApplication.run(SpringSecurityJwtApplication.class, args);
 	}
-
-/**
+/* 
 	@Autowired
 	PasswordEncoder passwordEncoder;
 
